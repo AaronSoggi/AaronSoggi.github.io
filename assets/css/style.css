@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html, body{
+    margin:0;
+    padding: 0;   
+    text-align: center;
+}
+
+.line{
+    content: '';
+    position: absolute;
+    margin:auto;
+    height: 2px;
+    background: #35404f;
+    width: 30%;
+    top: 6%
+}
+.card{
+    margin-top: 20px;
+    margin-right: -20px;
+    padding-left: 30px;
+
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 120px;
+    grid-template-areas: "text";
+
+    
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    border-radius: 10px;
+    background: #35404f;
+    box-shadow: 5px 5px 15px #1c222a;
+      
+}
+.card-text{
+    margin-top: 20px;
+    grid-area: text;
+    font-weight:bolder;
+    position:absolute;
+}
+.card-text p{
+    color: rosybrown;
+    font-size: 15px;
+    font-weight: 200;
+}
+.card2{
+    margin-top: 20px;
+    margin-right: 470px;
+    margin-left: -480px;
+    padding-left: 30px;
+
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 120px;
+    grid-template-areas: "text";
+
+    
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    border-radius: 10px;
+    background: #35404f;
+    box-shadow: 5px 5px 15px #1c222a;
+      
+}
+.card2-text{
+    margin-top: 20px;
+    grid-area: text;
+    font-weight:bolder;
+    position:absolute;
+}
+.card2-text p{
+    color: rosybrown;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+
+
+.details{
+    width: 100%;
+    top: -10px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+
+.wrapper2{
+    max-width: 1170x;
+    margin: 0 auto;
+}
+header{
+    height: 225px;
+    background:#1e252e;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+
+}
+.logo{
+    width: 12%;
+    float: left;
+    line-height: 100px;
+}
+.logo2 a{
+    
+    text-decoration: none;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.menu{
+    margin-top: -4ex;
+    float: center;
+    line-height: 100px;
+    padding-right: 230px;
+}
+.menu a{
+    font-size: 25px;
+    padding-top: 70px;
+    margin-top: -30px;
+    text-decoration: none;
+
+}
+.menu li a{
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin : 50px 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+section{
+    display: inline-block;
+    width: 100%;
+   
+}
+.conte
+
+
+.banner-area{
+    width:100%;
+    height:500px;
+    position: absolute;
+    top: 10px;
+    
+}
+.banner-area h2{
+    padding-right: 230px;
+   
+    font-size: 70px;
+    font-family: sans-serif;
+    color: #fff;
+   
+}
+
+
+.content-area{
+    width: 100%;
+    position: relative;
+    top: 450px;
+    background: #ddd;
+    height : 1500px
+
+}
+.text{
+    width: 100%;
+    top: -10px;
+    position: absolute;
+    padding-left: 380px;
+}
+.text p{
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+}
+.medicalSystem{
+    width: 100%;
+    top: 330px;
+    left: 90px;
+    position: absolute;
+    padding-left: 380px;
+    
+}
+.medicalSystem p{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+}
+.medicalSystem h6{
+    margin-left: -480px;
+}
+.medicalIcon{
+    width: 100%;
+    top: -60px;
+    left: 230px;
+    position: absolute;
+    padding-left: 380px;
+    
+}
+
+
+.BookingSystem{
+    width: 100%;
+    top: 300px;
+    left: -90px;
+    position: absolute;
+    padding-left: 380px;
+    
+}
+.BookingSystem p{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+
+}
+.BookingSystem h4{
+    padding-top: -30px;
+}
+.bookingIcon{
+    width: 100%;
+    top: -130px;
+    left: -310px;
+    position: absolute;
+    padding-left: 380px;   
+}
+.bookingIcon h3{
+    padding-bottom: 40px;
+}
+
+
+.mobileApp{
+    width: 100%;
+    top: 300px;
+    left: -90px;
+    position: absolute;
+    padding-left: 380px;
+    
+}
+.mobileApp p{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+
+}
+.mobileApp h6{
+    padding-top: 140px;
+ 
+}
+.medigineIcon{
+    width: 100%;
+    top: 90px;
+    left: -310px;
+    position: absolute;
+    padding-left: 380px;   
+}
+.medigineIcon h6{
+    padding-bottom: 40px;
+}
+
+.skills{
+    width: 100%;
+    top: 330px;
+    left: 10px;
+    position: absolute;
+    
+}
+.skills p{
+    text-align: left;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+
+
+}
+.icons{
+    width: 100%;
+    top: 330px;
+    left: 10px;
+    position: absolute;
+}
+li{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+.media{
+    min-width: 550px;
+    position: relative;
+    top: -115px;
+    left: 92%;
+    transform: translate(-50%, -50%)
+
+}
+.media1{
+    width: 100%;
+    position: absolute;
+    margin-right: -20px;
+    padding-left: -30px;
+    top: 210px;
+    left: 4%;
+    transform: translate(-50%, -50%)
+
+}
+.media1 p{
+    margin-left: 450px;
+}
+.media2{
+    width: 100%;
+    position: absolute;
+    margin-right: -20px;
+    padding-left: -30px;
+    top: 240px;
+    left: 86%;
+    transform: translate(-50%, -50%)
+
+}
+.media2 p{
+    margin-left: 310px;
+}
+.media3{
+    width: 100%;
+    position: absolute;
+    margin-right: -20px;
+    padding-left: -30px;
+    top: 350px;
+    left: 86%;
+    transform: translate(-50%, -50%)
+
+}
+.media3 p{
+    margin-left: 350px;
+    padding-top: 170px;
+}
+.contact{
+    z-index: -1;
+    width: 100%;
+    top: -130px;
+    left: -350px;
+    position: relative;
+
+}
+.contact h5{
+    text-align: right;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+    
+
+}
+#wrapper2 {
+    -moz-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+    -webkit-transition: -webkit-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+    -ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+    transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
+    padding-top: 10em;
+}
+
+    #wrapper2.is-transitioning {
+        opacity: 0;
+    }
+
+    #wrapper2 > * > .inner {
+        
+        padding: 3em 0 2em 0 ;
+        margin: 0 auto;
+        max-width:90em; /*width of main body text*/
+        width: calc(100% - 6em);
+    }
+
+        @media screen and (max-width: 736px) {
+
+            #wrapper2 > * > .inner {
+                padding: 3em 0 1em 0 ;
+                width: calc(100% - 3em);
+            }
+
+        }
+
+    @media screen and (max-width: 736px) {
+
+        #wrapper2 {
+            padding-top: 5.00em;
+        }
+
+    }
+
