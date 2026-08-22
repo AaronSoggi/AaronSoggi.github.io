@@ -75,6 +75,9 @@ html, body{
     font-size: 15px;
     font-weight: 200;
 }
+.card-tall{
+    grid-template-rows: 180px;
+}
 
 
 
