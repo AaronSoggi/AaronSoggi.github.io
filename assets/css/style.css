@@ -2,85 +2,12 @@
     margin: 0;
     padding: 0;
 
-}
+
 html, body{
     margin:0;
     padding: 0;   
     text-align: center;
 }
-
-.line{
-    content: '';
-    position: absolute;
-    margin:auto;
-    height: 2px;
-    background: #35404f;
-    width: 30%;
-    top: 6%
-}
-.card{
-    margin-top: 20px;
-    margin-right: -20px;
-    padding-left: 30px;
-
-    display: grid;
-    grid-template-columns: 600px;
-    grid-template-rows: 120px;
-    grid-template-areas: "text";
-
-    
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    border-radius: 10px;
-    background: #35404f;
-    box-shadow: 5px 5px 15px #1c222a;
-      
-}
-.card-text{
-    margin-top: 20px;
-    grid-area: text;
-    font-weight:bolder;
-    position:absolute;
-}
-.card-text p{
-    color: rosybrown;
-    font-size: 15px;
-    font-weight: 200;
-}
-.card2{
-    margin-top: 20px;
-    margin-right: 470px;
-    margin-left: -480px;
-    padding-left: 30px;
-
-    display: grid;
-    grid-template-columns: 600px;
-    grid-template-rows: 120px;
-    grid-template-areas: "text";
-
-    
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    border-radius: 10px;
-    background: #35404f;
-    box-shadow: 5px 5px 15px #1c222a;
-      
-}
-.card2-text{
-    margin-top: 20px;
-    grid-area: text;
-    font-weight:bolder;
-    position:absolute;
-}
-.card2-text p{
-    color: rosybrown;
-    font-size: 15px;
-    font-weight: 200;
-}
-.card-tall{
-    grid-template-rows: 180px;
-}
-
-
-
 
 .details{
     width: 100%;
@@ -126,6 +53,7 @@ header{
     padding-top: 70px;
     margin-top: -30px;
     text-decoration: none;
+    border-bottom: none;
 
 }
 .menu li a{
@@ -175,103 +103,25 @@ section{
     width: 100%;
     top: -10px;
     position: absolute;
-    padding-left: 380px;
+    padding-left: 360px;
 }
 .text p{
     text-align: left;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #fff;
+    font-size: 17px;
 }
-.medicalSystem{
-    width: 100%;
-    top: 330px;
-    left: 90px;
-    position: absolute;
-    padding-left: 380px;
-    
-}
-.medicalSystem p{
-    font-size: 16px;
+.bio-text{
     text-align: left;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #fff;
-}
-.medicalSystem h6{
-    margin-left: -480px;
-}
-.medicalIcon{
-    width: 100%;
-    top: -60px;
-    left: 230px;
-    position: absolute;
-    padding-left: 380px;
-    
-}
-
-
-.BookingSystem{
-    width: 100%;
-    top: 300px;
-    left: -90px;
-    position: absolute;
-    padding-left: 380px;
-    
-}
-.BookingSystem p{
-    font-size: 16px;
-    text-align: left;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    color: #fff;
-
-}
-.BookingSystem h4{
-    padding-top: -30px;
-}
-.bookingIcon{
-    width: 100%;
-    top: -130px;
-    left: -310px;
-    position: absolute;
-    padding-left: 380px;   
-}
-.bookingIcon h3{
-    padding-bottom: 40px;
-}
-
-
-.mobileApp{
-    width: 100%;
-    top: 300px;
-    left: -90px;
-    position: absolute;
-    padding-left: 380px;
-    
-}
-.mobileApp p{
-    font-size: 16px;
-    text-align: left;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
-    color: #fff;
-
-}
-.mobileApp h6{
-    padding-top: 140px;
- 
-}
-.medigineIcon{
-    width: 100%;
-    top: 90px;
-    left: -310px;
-    position: absolute;
-    padding-left: 380px;   
-}
-.medigineIcon h6{
-    padding-bottom: 40px;
+    font-size: 17px;
+    margin-bottom: 1.5em;
 }
 
 .skills{
     width: 100%;
-    top: 330px;
+    top: 375px;
     left: 10px;
     position: absolute;
     
@@ -280,6 +130,7 @@ section{
     text-align: left;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     color: #fff;
+    font-size: 17px;
 
 
 }
@@ -308,46 +159,7 @@ li{
     transform: translate(-50%, -50%)
 
 }
-.media1{
-    width: 100%;
-    position: absolute;
-    margin-right: -20px;
-    padding-left: -30px;
-    top: 210px;
-    left: 4%;
-    transform: translate(-50%, -50%)
 
-}
-.media1 p{
-    margin-left: 450px;
-}
-.media2{
-    width: 100%;
-    position: absolute;
-    margin-right: -20px;
-    padding-left: -30px;
-    top: 240px;
-    left: 86%;
-    transform: translate(-50%, -50%)
-
-}
-.media2 p{
-    margin-left: 310px;
-}
-.media3{
-    width: 100%;
-    position: absolute;
-    margin-right: -20px;
-    padding-left: -30px;
-    top: 350px;
-    left: 86%;
-    transform: translate(-50%, -50%)
-
-}
-.media3 p{
-    margin-left: 350px;
-    padding-top: 170px;
-}
 .contact{
     z-index: -1;
     width: 100%;
@@ -363,6 +175,124 @@ li{
     
 
 }
+
+/* ---- Portfolio heading ---- */
+.portfolio-heading{
+    padding-top: 240px;
+}
+.portfolio-heading .inner{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.portfolio-heading h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin: 0;
+}
+.section-divider{
+    flex: 1;
+    height: 2px;
+    background: #35404f;
+    margin: 0;
+}
+
+/* ---- Project cards (flex-based, replaces the old absolute-positioned
+        BookingSystem/medicalSystem/mobileApp/card/card2/media1/2/3 classes) ---- */
+.project{
+    padding: 15px 0;
+}
+.project-inner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: left;
+}
+.project-reverse .project-inner{
+    flex-direction: row-reverse;
+}
+.project-icon{
+    flex-shrink: 0;
+}
+.project-icon img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.project-body{
+    flex: 1;
+    min-width: 0;
+}
+.project-body h6{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.project-card{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    border-radius: 10px;
+    background: #35404f;
+    box-shadow: 5px 5px 15px #1c222a;
+    padding: 25px 30px;
+}
+.project-card-tall{
+    padding: 30px 30px;
+}
+.project-card p{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 200;
+    text-align: left;
+    margin: 0;
+}
+.project-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 18px;
+}
+.project-tools{
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    color: #fff;
+    font-size: 16px;
+}
+.project-social{
+    margin: 0;
+}
+.project-social li{
+    margin: 0;
+}
+
+@media screen and (max-width: 736px) {
+    .project-inner{
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    .project-body{
+        text-align: center;
+    }
+    .project-card p{
+        text-align: left;
+    }
+    .project-footer{
+        justify-content: center;
+    }
+}
+
 #wrapper2 {
     -moz-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
     -webkit-transition: -webkit-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
@@ -399,4 +329,3 @@ li{
         }
 
     }
-
